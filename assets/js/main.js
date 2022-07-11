@@ -9,7 +9,7 @@
 
   /**
    * Easy selector helper function
-   * add commit
+   * add commment
    */
   const select = (el, all = false) => {
     el = el.trim()
