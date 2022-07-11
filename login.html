@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body class="bg-info">
+  <div class="p-4 mb-3 bg-light text-dark">
+     <div class="container">
+        <div class="row vh-100 align-items-center justify-content-center">
+            <div class="col-sm-8 col-md-6 col-lg-4 bg-white rounded p-4 shadow">
+                <div class="row justify-content-center mb-4">
+                    <img src="Logo.png" class="w-20">
+                </div>
+                <form>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email.</div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                        <div id="passwordHelp" class="form-text">Password must be over 8 characters long.</div>
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Remember Me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+                <p class="mb-0 text-center">Not registered yet? <a href="http://127.0.0.1:5500/register.html" class="text-decoration-none">Register!</a></p>
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+
+    
+</body>
+</html>
